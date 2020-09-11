@@ -88,7 +88,7 @@ subscriptions |  {}
 partialData | ''
 debug | debug(message)
 connect | connect(headers, connectCallback, errorCallback)
- | connect(login, passcode, connectCallback, errorCallback, closeEventCallback, host)
+connect | connect(login, passcode, connectCallback, errorCallback, closeEventCallback, host)
 disconnect | disconnect(disconnectCallback, headers)
 send | send(destination, headers, body)
 subscribe | subscribe(destination, subscribeCallback, headers)
