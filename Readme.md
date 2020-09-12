@@ -22,7 +22,7 @@ Because Javascript is the only language running in a web browser.
 
 Software engineers and computer scientists across the world should unite to avoid using Javascript for any other purpose. Javascript rolls back 50 years of progress in computer science, producing buggy, unmaintainable bags of poorly written software. Anyone who spent hours and days on production issues *for errors that could have been caught in the text editor* will agree. As will anyone who loses hours on numerous build-deployment cycles, or anyone who has to maintain a piece of script that is either poorly written, or a deeply nested mess of function calls that return and apply functions, for the simple purpose of reducing variable scope.
 
-Our modern world of post-factualism even brings the blessings of "web technolgies" to the desktop, via software platforms like electron. Now our desktop applications are becoming as flaky and rough as our web applications.
+Our modern world of post-factualism even brings the blessings of "web technologies" to the desktop, via software platforms like electron. Now our desktop applications are becoming as flaky and rough as our web applications.
 
 # Why an incompatible API change
 
