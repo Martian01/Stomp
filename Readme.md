@@ -48,7 +48,7 @@ Afterwards you can use the global property `Stomp` in your code. `Stomp` essenti
 
 ### The Happy Path
 
-	let wsClient = Stomp.over(webSocketFactory);
+	let wsClient = Stomp.clientFromFactory(webSocketFactory);
 	wsClient.reconnect_delay = 5000;
 	...
 	wsClient.connect(headers, connectCallback, errorCallback);
@@ -59,6 +59,18 @@ Afterwards you can use the global property `Stomp` in your code. `Stomp` essenti
 
 	function connectCallback() {
 		wsClient.subscribe('/topic/log', subscriptionCallback);
+		...
+	}
+
+	function subscriptionCallback(data) {
+		...
+	}
+
+	function errorCallback(error) {
+		...
+	}
+
+	function disconnectCallback(error) {
 		...
 	}
 
